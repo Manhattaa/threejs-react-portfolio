@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
@@ -8,6 +8,7 @@ const App = () => {
     <main className='bg-slate-300/20'>
       <Router>
         <Navbar />
+        <BrowserRouter basename="/threejs react portfolio">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route
@@ -24,6 +25,7 @@ const App = () => {
             }
           />
         </Routes>
+        </BrowserRouter>
       </Router>
     </main>
   );
