@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
@@ -5,7 +6,7 @@ import { About, Contact, Home, Projects } from "./pages";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      <BrowserRouter basename="/threejs-react-portfolio">
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
