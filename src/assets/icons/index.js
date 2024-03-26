@@ -29,7 +29,7 @@ import dreamify from './dreamify.svg'
 import miniapi from  './miniapi.svg'
 import threading from './threading.svg'
 import bank from './bank.svg'
-import rpgadventures from './rpgadventures.svg'
+import protagonist from './protagonist.svg'
 import cv from './cv.svg'
 
 export {
@@ -37,7 +37,7 @@ export {
     miniapi,
     threading,
     bank,
-    rpgadventures,
+    protagonist,
     cv,
     aspnet,
     restapi,

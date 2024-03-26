@@ -14,7 +14,7 @@ import {
     miniapi,
     threading,
     bank,
-    rpgadventures,
+    protagonist,
     cv,
     css,
     git,
@@ -235,7 +235,7 @@ export const projects = [
         link: 'https://github.com/Manhattaa/The_Bank',
     },
     {
-        iconUrl: rpgadventures,
+        iconUrl: protagonist,
         theme: 'btn-back-black',
         name: 'Console Warrior',
         description: 'A text-based and musical adventure set in The Vale',
