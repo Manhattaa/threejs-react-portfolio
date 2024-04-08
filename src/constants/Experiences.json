@@ -1,0 +1,50 @@
+{
+    
+    "experience": [
+        {
+            "title": "Part Time Sales Assistant",
+            "company_name": "Åhlens City, Stockholm",
+            "icon": "src/assets/images/ahlens.png",
+            "iconBg": "#accbe1",
+            "date": "June 2014 - March 2018",
+            "points": [
+                "Was widely regarded as the indirect 'IT Guy' of the department, solving problems before the actual IT Department came down",
+                "Collaborating with all kinds of people, i learned a lot!"
+            ]
+        },
+        {
+            "title": "Part time Sales Assistant",
+            "company_name": "Tiger of Sweden",
+            "icon": "src/assets/images/tiger.png",
+            "iconBg": "#fbc3bc",
+            "date": "March 2018 - October 2019",
+            "points": [
+                "Received a lot more responsibility",
+                "Very laidback setting that allowed me further develop my social skills",
+                "Lots of freedom within the company, Connected with some Software Developers, this opened my eyes to the world of Software Development."
+            ]
+        },
+        {
+            "title": "Residency Rotations",
+            "company_name": "Various Hospitals in Stockholm",
+            "icon": "src/assets/images/sjukvard.png",
+            "iconBg": "#b7e4c7",
+            "date": "Aug 2020 - Feb 2022",
+            "points": [
+                "Collaborating with people with all kinds of different jobs",
+                "Worked with a bunch of Software Development Consultants; Which prompted me to seek to learn more"
+            ]
+        },
+        {
+            "title": "Medical Doctor",
+            "company_name": "Various Hospitals in Stockholm",
+            "icon": "src/assets/images/sjukvard.png",
+            "iconBg": "#a2d2ff",
+            "date": "Jan 2022 - Aug 2023",
+            "points": [
+                "Worked Fulltime at various hospitals by day, was building Websites and learning to code by night.",
+                "Participating in code reviews and providing constructive feedback to other developers."
+            ]
+        }
+    ]
+}
