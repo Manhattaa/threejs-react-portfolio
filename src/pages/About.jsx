@@ -4,7 +4,8 @@ import {
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
-import { experiences, skills } from "../constants";
+import { skills } from "../constants";
+import experience from "../constants/Experiences.json"
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -56,7 +57,7 @@ const About = () => {
 
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {experience.experience.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}

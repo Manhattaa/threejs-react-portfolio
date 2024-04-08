@@ -1,10 +1,31 @@
-import { Link } from "react-router-dom";
-
+import React, { useState, useEffect } from "react";
 import { CTA } from "../components";
-import { projects } from "../constants";
+import { Link } from "react-router-dom";
+import Myprojects from "../constants/Projects.json";
 import { arrow } from "../assets/icons";
+import Spinner from 'react-bootstrap/Spinner';
 
 const Projects = () => {
+  const [isLoading, setIsLoading] = useState(true); 
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setProjects(Myprojects.projects);
+      setIsLoading(false); 
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []); 
+
+  if (isLoading) {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading - please wait...</span>
+        </Spinner>
+      </div>
+    );
+  }
   return (
     <section className='max-container'>
       <h1 className='head-text'>
@@ -22,9 +43,12 @@ const Projects = () => {
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
-        {projects.map((project) => (
+        {Myprojects.projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
+
+
+
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
