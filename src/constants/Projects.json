@@ -1,0 +1,47 @@
+{
+    
+    "projects": [
+    {
+        "iconUrl": "src/assets/icons/dreamify.svg",
+        "theme": "btn-back-red",
+        "name": "Dreamify",
+        "description": "A Project where we translated the Spotify open source Web-API from Javascript to C#",
+        "link": "https://github.com/Manhattaa/Dreamify"
+    },
+    {
+        "iconUrl": "src/assets/icons/threading.svg",
+        "theme": "btn-back-green",
+        "name": "Threading Lab",
+        "description": "A Simulation of Cars Racing against eachother, with events!",
+        "link": "https://github.com/Manhattaa/LAB--2-Threading"
+    },
+    {
+        "iconUrl": "src/assets/icons/miniapi.svg",
+        "theme": "btn-back-blue",
+        "name": "MiniAPI",
+        "description": "Created an API that makes use of a database system to store information",
+        "link": "https://github.com/Manhattaa/MiniAPI"
+    },
+    {
+        "iconUrl": "src/assets/icons/bank.svg",
+        "theme": "btn-back-pink",
+        "name": "The Bank",
+        "description": "Group Project: Practicing MSSQL Databases within C# Applications.",
+        "link": "https://github.com/Manhattaa/The_Bank"
+    },
+    {
+        "iconUrl": "src/assets/icons/protagonist.svg",
+        "theme": "btn-back-black",
+        "name": "Console Warrior",
+        "description": "A text-based and musical adventure set in The Vale",
+        "link": "https://github.com/Manhattaa/RPGAdventures"
+    },
+    {
+        "iconUrl": "src/assets/icons/cv.svg",
+        "theme": "btn-back-yellow",
+        "name": "HTML, CSS and Javascript Portfolio Website",
+        "description": "A Portfolio site that makes use of a lot of Javascript elements.",
+        "link": "https://github.com/Manhattaa/CV-Portfolio-Website"
+    }
+    ]
+    }
